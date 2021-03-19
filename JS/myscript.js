@@ -27,19 +27,24 @@
 
 // 4th task
 
-if (age < 18) {
-     console.log("20% off: ", amountDue);
+var amountDue = 0
+
+if (age < 18) {     
     var discount = totalPrice * 20 / 100;
-    var amountDue = totalPrice - discount;
+    amountDue = totalPrice - discount;
+   // console.log("20% off: ", amountDue);
+
 } else if (age >= 65) {
-     console.log ("40% off: ", amountDue);
     var discount = totalPrice * 40 / 100;
-    var amountDue = totalPrice - discount;
+    amountDue = totalPrice - discount;
+  //  console.log ("40% off: ", amountDue);
+
 } else {
-     console.log ("0% off: ", amountDue);
-    var amountDue = totalPrice;
+    amountDue = totalPrice;
+  //  console.log ("0% off: ", amountDue);
 }
      
 // Amount due
         
-document.getElementById("train-ticket").innerHTML = amountDue
+document.getElementById("train-ticket").innerHTML = "Your ticket costs: Є" + amountDue;
+document.getElementById("good-journey").innerHTML = "Have a Good Journey!";
