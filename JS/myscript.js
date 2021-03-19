@@ -40,5 +40,6 @@ if (age < 18) {
     var amountDue = totalPrice;
 }
      
+// Amount due
         
-    
+document.getElementById("train-ticket").innerHTML = amountDue
