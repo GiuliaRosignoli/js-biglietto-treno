@@ -10,7 +10,7 @@
 
 // 1st task
  var distance = parseInt(prompt ("What is the total distance of your journey in kilometres?") );
- console.log(distance)
+ console.log("Total distance: ", distance);
 
  // 2nd task
 
