@@ -31,11 +31,13 @@ var amountDue = 0
 
 if (age < 18) {     
     var discount = totalPrice * 20 / 100;
+    alert("We've got a new promo that's gives you 20% OFF");
     amountDue = totalPrice - discount;
    // console.log("20% off: ", amountDue);
 
 } else if (age >= 65) {
     var discount = totalPrice * 40 / 100;
+    alert("We've got a new promo that's gives you 40% OFF");
     amountDue = totalPrice - discount;
   //  console.log ("40% off: ", amountDue);
 

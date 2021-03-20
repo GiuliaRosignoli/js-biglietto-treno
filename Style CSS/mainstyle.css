@@ -4,7 +4,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    padding-top: 150px;
+    text-align: right;
 }
 
 .wrapper {
@@ -22,11 +27,19 @@
     background-color: rgba(255, 0, 0, 0.5);
 }
 
+.wrapper h1 {
+    padding-bottom: 30px;
+}
+
+.wrapper h2 {
+    padding-top: 40px;
+}
+
 .wrapper-text {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 25px;
-    color: rgb(37, 35, 35);
+    color: rgb(27, 23, 23);
 }
